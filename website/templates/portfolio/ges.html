@@ -1,0 +1,59 @@
+{% extends "portfolio_base.html" %}
+{% block content %}
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Portfolio Details</li>
+        </ol>
+        <h2>Portfolio Details: Product Design Idea Competition, GES 2018, E-cell IITKGP</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{url_for('static',filename='assets/img/portfolio/GES2.jpg')}}" class="img-fluid" alt="">
+            <!-- <img src="assets/img/portfolio/siemens2.png" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/siemens1.jpg" class="img-fluid" alt=""> -->
+          </div>
+
+          <div class="portfolio-info">
+            <h3>Project information</h3>
+            <ul>
+              <li><strong>Product Name</strong>: EvapoReefer</li>
+              <li><strong>Event Name</strong>: PDI-C, GES 2018, IITKGP</li>
+              <li><strong>Event date</strong>: 2-4 March, 2018</li>
+              <li><strong>Event URL</strong>: <a href="https://ecell-iitkgp.org/index.php">Click to Visit</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+          <h2>EvapoReefer - An alternative to conventional refrigirated trucks</h2>
+          <p>
+            Following the streak of showcasing our enthusiasm and zeal for erudition and moulding our ideas into innovative products, our product Evapo - Reefer was announced as the winner of Product Design Idea Competition conducted in Global
+            Entrepreneurship Summit 2018 by E-Cell, IIT Kharagpur on 3rd February, 2018.<br /><br>
+            The product was aimed to improve the life of consumable commodities during transportation and to reduce food wastage in supply chain by designing a power efficient cold storage transportation system.<br /><br />
+            Winning is a tradition here, at ProDex! We congratulate the team for adding another feather in their beret !
+          </p>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}
